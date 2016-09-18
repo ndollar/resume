@@ -1,0 +1,161 @@
+/* Pure Media Boundaries
+sm	@media screen and (min-width: 35.5em)	≥ 568px	.pure-u-sm-*
+md	@media screen and (min-width: 48em)	≥ 768px	.pure-u-md-*
+lg	@media screen and (min-width: 64em)	≥ 1024px	.pure-u-lg-*
+xl	@media screen and (min-width: 80em)	≥ 1280px	.pure-u-xl-*
+
+*/
+
+body {
+  font-family: arial, sans-serif;
+  color: #212121;
+  font-size: 16px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Header */
+
+header {
+  margin-top: 20px;
+}
+#header-content {
+  margin-bottom: 16px;
+}
+
+#full-name {
+  font-size: 2.5em;
+  color: #2c719a;
+}
+
+#title {
+  color: #616161;
+  font-size: 1.2em;
+}
+
+#sub-about {
+  color: #6f6f6f;
+  margin: 0;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  border: 3px solid #2c719a;
+}
+
+#info-bar {
+  border-top: 1px solid #bbbaba;
+  border-bottom: 1px solid grey;
+  padding: 6px 0;
+}
+
+.info-bar-item {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+@media screen and (min-width: 48em) {
+
+}
+
+/* End Header */
+
+/* Section */
+.section-header {
+  margin: 12px 0 0 0;
+  color: #2c719a;
+}
+
+.section-header .border-wrapper {
+  border: 1px solid #2c719a;
+  padding: 4px 6px;
+  display: inline-block;
+}
+
+/* End Section */
+
+/* Experience */
+
+.experience-title {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.experience-place-time {
+  color: #474646;
+  font-size: 0.8em;
+  margin-top: 6px;
+}
+.experience-accomplishments {
+  margin-top: 16px;
+}
+
+.smaller-underlined-label {
+  margin: 6px 0 4px 0;
+  font-size: 0.8em;
+  font-weight: 700;
+  border-bottom: 1px solid grey;
+  width: 50%;
+}
+
+.accomplishments-list {
+  margin-top: 0;
+}
+
+.accomplishments-list li {
+  font-size: 0.92em;
+  margin: 6px 0;
+}
+
+@media screen and (min-width: 48em) {
+  .accomplishments-list {
+    padding-right: 10%;
+  }
+}
+
+/* End Experience */
+
+/* Skills */
+.skill-category-label {
+  font-weight: 600;
+  font-size: 0.98em;
+}
+
+.skill-sub-category-label {
+  font-size: 0.9em;
+  color: #2c719a;
+}
+
+.skills, .interests {
+  padding: 2px 0 4px 6px;
+  font-size: 0.92em;
+  line-height: 1.3em;
+}
+
+.skills {
+  color: #1e5575;
+}
+.interests {
+  color: #616161;
+}
+.fa-circle {
+    font-size: 0.5em;
+    vertical-align: middle;
+    margin: 0 4px 2px 4px;
+    color: grey;
+}
+
+/* End Skills */
+
+/* Other */
+.inline-section {
+  margin-top: 12px;
+}
