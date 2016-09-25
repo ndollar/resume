@@ -1,6 +1,6 @@
 /**
  * DO NOT ADD LOGIC
- * WE"RE JUST USING NODE TO SERVE STATIC FILES
+ * JUST USING NODE TO SERVE STATIC FILES
  */
 var express = require('express');
 var app = express();

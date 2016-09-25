@@ -44,6 +44,7 @@ header {
 #sub-about {
   color: #6f6f6f;
   margin: 0;
+  font-size: 0.97em;
 }
 
 #profile-pic {
@@ -110,6 +111,7 @@ header {
   margin-top: 0;
 }
 
+/* TODO: Consider adding class here */
 .accomplishments-list li {
   font-size: 0.92em;
   margin: 6px 0;
@@ -138,14 +140,14 @@ header {
   padding: 2px 0 4px 6px;
   font-size: 0.92em;
   line-height: 1.3em;
+  color: #616161;
 }
 
 .skills {
-  color: #1e5575;
 }
 .interests {
-  color: #616161;
 }
+
 .fa-circle {
     font-size: 0.5em;
     vertical-align: middle;
@@ -154,6 +156,16 @@ header {
 }
 
 /* End Skills */
+
+/* Education */
+#degree {
+  margin-bottom: 6px;
+}
+#minor {
+  font-size: 0.92em;
+}
+
+/* End Education */
 
 /* Other */
 .inline-section {
