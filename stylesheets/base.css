@@ -9,7 +9,7 @@ xl	@media screen and (min-width: 80em)	≥ 1280px	.pure-u-xl-*
 body {
   font-family: arial, sans-serif;
   color: #212121;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 main {
@@ -27,6 +27,7 @@ main {
 header {
   margin-top: 20px;
 }
+
 #header-content {
   margin-bottom: 16px;
 }
@@ -81,10 +82,13 @@ header {
   display: inline-block;
 }
 
+#left-column {
+  padding-right: 20px;
+}
+
 /* End Section */
 
 /* Experience */
-
 .experience-title {
   font-weight: 600;
   font-size: 1.1em;
@@ -96,7 +100,7 @@ header {
   margin-top: 6px;
 }
 .experience-accomplishments {
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .smaller-underlined-label {
@@ -109,6 +113,7 @@ header {
 
 .accomplishments-list {
   margin-top: 0;
+  padding-left: 15px;
 }
 
 /* TODO: Consider adding class here */
@@ -170,4 +175,8 @@ header {
 /* Other */
 .inline-section {
   margin-top: 12px;
+}
+
+.pure-g div, .pure-g section {
+  box-sizing: border-box;
 }
