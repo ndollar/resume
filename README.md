@@ -3,4 +3,4 @@ I got sick of creating Resume's using a Word processor and storing them either o
 
 [https://ndollar.github.io/resume/printable/full_stack.html](https://ndollar.github.io/resume/printable/full_stack.html)
 
-![Nick Dollarhide's Resume](https://ndollar.github.io/resume/images/nick-dollarhides-resume.png)
+![Nick Dollarhide's Resume](https://ndollar.github.io/resume/images/nick-dollarhides-resume2.png)
