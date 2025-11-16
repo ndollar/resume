@@ -25,7 +25,7 @@ main {
 /* Header */
 
 header {
-  margin-top: 20px;
+  margin-top: 14px;
 }
 
 #header-content {
@@ -49,6 +49,7 @@ header {
 }
 
 #profile-pic {
+  width: 100px;
   border-radius: 50%;
   border: 3px solid #2c719a;
 }
@@ -78,7 +79,7 @@ header {
 
 .section-header .border-wrapper {
   border: 1px solid #2c719a;
-  padding: 4px 6px;
+  padding: 2px 6px;
   display: inline-block;
 }
 
@@ -91,16 +92,21 @@ header {
 /* Experience */
 .experience-title {
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.02em;
+}
+
+.experience-company, .experience-place-time {
+  display: inline-block;
+}
+
+.experience-company {
+  font-size: 95%;
 }
 
 .experience-place-time {
   color: #474646;
   font-size: 0.8em;
   margin-top: 6px;
-}
-.experience-accomplishments {
-  margin-top: 12px;
 }
 
 .smaller-underlined-label {
@@ -174,7 +180,7 @@ header {
 
 /* Other */
 .inline-section {
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .pure-g div, .pure-g section {
