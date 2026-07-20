@@ -3,4 +3,4 @@ I used to keep my resume in a Word doc, fighting with formatting and never quite
 
 [https://ndollar.github.io/resume/printable/full_stack.html](https://ndollar.github.io/resume/printable/full_stack.html)
 
-![Nick Dollarhide's Resume](https://ndollar.github.io/resume/images/nick-dollarhides-resume.png)
+![Nick Dollarhide's Resume](https://ndollar.github.io/resume/images/nick-dollarhides-resume-2025.png)
