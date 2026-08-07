@@ -69,6 +69,28 @@ header {
 
 }
 
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  body {
+    font-size: 11px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .info-bar-item {
+    margin-right: 12px;
+  }
+}
+
 /* End Header */
 
 /* Section */
